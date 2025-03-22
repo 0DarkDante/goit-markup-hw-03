@@ -229,12 +229,18 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  padding: 120px 0 72px 0;
 }
 
-.team-list {}
+.team-list {
+  display: flex;
+  gap: 24px;
+}
 
 .team-item {
   background-color: #FFFFFF;
+  flex-basis: calc((100% - 72px) / 4);
+  margin-bottom: 120px;
 }
 
 .team-img {}
@@ -246,13 +252,16 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  text-transform: capitalize
+  text-transform: capitalize;
+  padding: 32px 0 8px 0;
+  
 }
 
 .team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 32px;
 }
 
 /* Section portfolio */
