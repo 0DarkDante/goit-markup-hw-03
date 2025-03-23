@@ -267,8 +267,8 @@ img {
 
 /* Section portfolio */
 
- .main .portfolio {
-  padding-bottom: 120px;
+.main .portfolio {
+  padding: 120px 0;
  }
 
 .portfolio-title {
@@ -278,7 +278,7 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  padding: 120px 0 72px 0;
+  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -301,7 +301,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding: 0px 0 8px 0;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-border {
