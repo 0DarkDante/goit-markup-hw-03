@@ -198,6 +198,7 @@ img {
   padding: 0;
   margin: -1px;
   overflow: hidden;
+  clip: rect(0, 0, 0, 0);
   clip-path: inset(50%);
   white-space: nowrap;
   border: 0;
@@ -255,6 +256,10 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-position {
+  padding: 32px 0;
+}
+
 .team-img {}
 
 .team-headline {
@@ -265,15 +270,13 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
-  padding: 32px 0 8px 0;
-  
+  margin-bottom: 8px;
 }
 
 .team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-bottom: 32px;
 }
 
 /* Section portfolio */
