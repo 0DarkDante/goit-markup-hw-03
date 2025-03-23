@@ -38,6 +38,7 @@ img {
 
 .header-navigation {
   display: flex;
+  align-items: center;
 }
 
 .header-navigation a {
@@ -68,9 +69,9 @@ img {
   
 }
 
-/* .header {
-  padding: 24px 0;
-} */
+.header {
+  border-bottom: 1px solid #e7e9fc
+}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -324,6 +325,8 @@ img {
 
 .footer-logo {
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-span {
@@ -335,5 +338,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  padding-top: 16px;
 }
