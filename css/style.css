@@ -188,15 +188,16 @@ img {
 /* Section futures */
 
 .features {
-
+  padding: 120px 0;
 }
 
-.features-title {}
+.features-title {
+  visibility: hidden;
+}
 
 .features-list {
   display: flex;
   justify-content: space-between;
-  padding: 120px 0;
 }
 
 .features-item {
